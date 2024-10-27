@@ -36,12 +36,12 @@ const server = gateway({
         {
             method: 'POST',
             prefix: '/usuarios',
-            target: 'http://localhost:3011',
+            target: 'https://seviciousuarios.onrender.com',
         },
         {
             method: ['GET', 'POST', 'PUT', 'DELETE'],
             prefix: '/productos',
-            target: 'http://localhost:3012',
+            target: 'https://productosservicio.onrender.com',
         }
     ]
 });
